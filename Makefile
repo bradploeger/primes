@@ -5,6 +5,6 @@ primes: primes.cpp
 	$(CXX) $(CXXFLAGS) $< -o $@
 
 clean:
-	rm -f primes
+	del /Q primes
 
 .PHONY: clean
